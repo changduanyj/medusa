@@ -1,4 +1,5 @@
 {
+  "main": "./dist/index.js",
   "name": "medusa-starter-default",
   "version": "0.0.1",
   "description": "A starter for Medusa projects.",
