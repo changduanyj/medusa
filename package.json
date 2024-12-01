@@ -1,4 +1,5 @@
 {
+  "main": "./dist/index.js",
   "name": "root",
   "private": true,
   "workspaces": {
