@@ -13,8 +13,8 @@ export const GET = async (
   const query = req.scope.resolve(ContainerRegistrationKeys.QUERY)
 
   const { data: myCustoms } = await query.graph({
-    entity: "my_custom",
-    fields: ["id", "name"],
+    entity: "product",
+    fields: ["title", "description"],
   })
 
   res.json({ my_customs: myCustoms })
