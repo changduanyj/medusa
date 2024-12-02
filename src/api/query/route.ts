@@ -17,5 +17,5 @@ export const GET = async (
     fields: ["title", "description"],
   })
 
-  res.json({ my_customs: myCustoms })
+  res.json({ my_products: myCustoms })
 }
