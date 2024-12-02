@@ -13,8 +13,8 @@ module.exports = defineConfig({
       cookieSecret: process.env.COOKIE_SECRET || "supersecret",
     },
   },
-  routes: {
+  /*routes: {
     "GET /query": require("./src/api/query/route").GET, // Agrega tu ruta personalizada
-  },
+  },*/
 });
 
